@@ -2,6 +2,7 @@
 
 *Como tirar a senha do banco de dentro do código e da máquina, deixá-la cifrada, auditável e rotacionável — e provar que funciona, com uma aplicação real rodando na AWS.*
 
+![Capa](imagens/imagem%20(19).png)
 ---
 
 ## O problema que todo mundo já viu
@@ -20,6 +21,9 @@ A pergunta central deste artigo é simples: **onde guardar a senha?** A resposta
 Para não ficar na teoria, construí uma aplicação de verdade — o **Cofre de Pedidos** — e implantei tudo na AWS. As imagens ao longo do texto são da execução real.
 
 > Este é um projeto de estudo, feito 100% pelo Console AWS. Todo o passo a passo reproduzível está em [`IMPLANTACAO.md`](IMPLANTACAO.md), a arquitetura detalhada em [`ARQUITETURA.md`](ARQUITETURA.md) e os testes de validação em [`TESTES.md`](TESTES.md).
+
+## Diagrama da arquitetura de referência
+![Capa](imagens/imagem%20(18).png)
 
 ---
 
